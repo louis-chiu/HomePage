@@ -1,0 +1,108 @@
+main {
+  display: flex;
+}
+main section.left {
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid black;
+}
+main section.left div.container {
+  border: 1px solid black;
+  display: flex;
+}
+main section.left div.container div.weather {
+  border-radius: 50%;
+  height: 20vh;
+  width: 20vh;
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section.left div.container div.weather img {
+  width: 15vh;
+  height: 15vh;
+  position: relative;
+  bottom: 10px;
+}
+main section.left div.container div.time {
+  width: 80%;
+  height: 20vh;
+  border: 5px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+main section.left div.container div.time div.hour {
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+}
+main section.left div.container div.time div.colon {
+  width: 10%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+main section.left div.container div.time div.min {
+  width: 20%;
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 8rem;
+}
+main section.left div.container div.calendar {
+  height: 20vh;
+  width: 100%;
+}
+main section.left div.container div.calendar div.today {
+  width: 100%;
+  height: 50%;
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5em;
+}
+main section.left div.container div.calendar div.week {
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main section.left div.container div.calendar div.week div.day {
+  width: 8vh;
+  height: 8vh;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+}
+main section.left div.container div.memo {
+  width: 100%;
+  height: 60vh;
+}
+main section.left div.container div.memo div {
+  border-bottom: 1.5px solid black;
+  height: 12.5%;
+}
+main section.right {
+  width: 70vw;
+  height: 100vh;
+  border: 1px solid black;
+}/*# sourceMappingURL=style.css.map */
